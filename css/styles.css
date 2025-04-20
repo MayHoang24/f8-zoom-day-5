@@ -252,6 +252,14 @@ body {
     justify-content: space-around;
 }
 
+.pricing-table .pricing-price:nth-child(2) {
+    background: #f0d9d9;
+}
+
+.pricing-table .pricing-price:nth-child(2):hover {
+    background: #5b79fc;
+}
+
 .pricing-price {
     min-width: 30%;
     padding: 30px;

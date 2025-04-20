@@ -279,9 +279,22 @@ body {
 }
 
 .pricing-basic-price {
+    position: relative;
     display: inline-block;
     margin-top: 26px;
     font-size: 4rem;
+}
+
+.pricing-basic-price::before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 16px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    top: 6px;
+    left: -36px;
+    rotate: 45deg;
 }
 
 .pricing-list {

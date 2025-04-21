@@ -362,6 +362,7 @@ body {
 .blog-img {
     margin-top: 30px;
     width: 100%;
+    border-radius: 10px;
 }
 
 .blog-desc {
